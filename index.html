@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forex King's</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/imports/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    LOGO
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <table id="top-singles">
+                <tr>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </tr>
+                <tr>
+                    <img src="images/forex/fxgen/coolchart.jpg">
+                </tr>
+            </table>
+            <table id="middle">
+                <tr>
+                    <td>
+                        <img src="images/other/mclaren_570s_spider_valentine_s_day_2018-wallpaper-3840x2160.jpg">
+                    </td>
+                    <td class="paragraph">
+                        <h2><b>More money than a powerball</b></h2>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/other/laptop-wallpaper-1920x1080.jpg">
+                    </td>
+                    <td class="paragraph">
+                        <h2><b>Work in office or in Hammock</b></h2>
+                        Nigga smilin' in your face, really want you in a ditch
+                        Half a ticket on my neck, quarter ticket on my wrist
+                        This that new Richard Mille plain Jane like a bitch
+                        They think that this shit is new, but we been really doing this
+                        Talkin' pointers but you don't get points and don't get no assists
+                        They say the ones that quiet be the ones that rich as bricks
+                        Wanna walk in my shoes, gotta take that risk (risk)
+                    </td>
+                </tr>
+            </table>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <table>
+                <tr id="bottom">
+                    <td class="smallest">
+                        <img src="images/forex/fundamentals/WikiFinancepedi.png">
+                        <br>
+                        <img src="images/forex/fxgen/sitelogo.gif">
+                        <br>
+                        <img src="images/forex/fundamental-analysis.png">
+                    </td>
+                    <td class="paragraph">
+                        <h2><b>Technical Analysis</b></h2>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </td>
+                    <td class="smallest">
+                        <img src="images/forex/technicals/chart-patterns.png">
+                        <br>
+                        <img src="images/forex/charts/higher-highs-lows.gif">
+                        <br>
+                        <img src="images/forex/fxgen/DQmVFWKqFFxc3tnND1AxogzdsWvRvMMyViaRMzc5WRomfEu.jpg">
+                    </td>
+                    <td class="paragraph">
+                        <h2><b>Technical Analysis</b></h2>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </td>
+                </tr>
+            </table>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+    </div>
+    <footer>
+        &copy; Copyright 2018
+        <ul>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Conditions</a></li>
+        </ul>
+    </footer>
+    <script type="text/javascript">
+        //Menu toggle-button
+        $(document).ready(function () {
+            $('.menu-icon').on('click', function () {
+                $('nav ul').toggleClass('showing');
+            })
+        });
+        
+        //Scrolling effect
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop()){
+                $('nav').addClass('black');
+            }else{
+                $('nav').removeClass('black');
+            }
+        });
+    </script>
+</body>
+</html>
