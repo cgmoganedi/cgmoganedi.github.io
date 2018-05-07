@@ -2,6 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     width: 100%;
+    background: url("../images/wallpapers/city_veins_-wallpaper-5120x2880.jpg");
 }
 body{
     font-family: "Open Sans", sans-serif;
@@ -19,6 +20,10 @@ header{
     font-size: 20px;
     line-height: 30px;
     text-align: justify;
+    color: white;
+}
+#middle, #top-singles{
+    text-align: center;
 }
 .logo{
     position: fixed;
@@ -74,7 +79,8 @@ footer{
     border-top:3px solid gray;
     text-align: center;
     padding-top: 6px;
-    font-size:0.975em;
+    font-size:1em;
+    color: white;
 }
 footer a{
     color: darkgray;
@@ -93,6 +99,7 @@ img{
 }
 #middle img{
     width: 600px;
+    border-radius: 150px;
 }
 /* Images */
 #bottom img{
