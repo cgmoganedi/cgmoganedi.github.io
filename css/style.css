@@ -109,7 +109,6 @@ img{
 .paragraph{
     padding: 10px 20px 0 0;
 }
-
 /* media queries for screen sizes */
 @media (max-width: 580px) {
     .logo{
