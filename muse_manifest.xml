@@ -1,0 +1,567 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="latestsonlineprices.com" resolutions="1x" timestamp="1543327349253">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_b-master.css" crc="4230130801" ref="books:home-products:more-books:music:interview-killer:gadgets"/>
+    <file name="master_a-master.css" crc="4090129664" ref="index:about:fitness-and-nutrition:blog-and-events"/>
+    <file name="books.css" crc="284679384" ref="books"/>
+    <file name="home-products.css" crc="4261353320" ref="home-products"/>
+    <file name="more-books.css" crc="3845394840" ref="more-books"/>
+    <file name="music.css" crc="374760154" ref="music"/>
+    <file name="index.css" crc="3896451466" ref="index"/>
+    <file name="about.css" crc="83298376" ref="about"/>
+    <file name="fitness-and-nutrition.css" crc="367958447" ref="fitness-and-nutrition"/>
+    <file name="blog-and-events.css" crc="267387390" ref="blog-and-events"/>
+    <file name="interview-killer.css" crc="336453844" ref="interview-killer"/>
+    <file name="gadgets.css" crc="3807113625" ref="gadgets"/>
+  </folder>
+  <folder name="assets">
+    <file name="tripheader.jpg" crc="4248187188" seo="true" mt="1543308006000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:books:music:gadgets:home-products:fitness-and-nutrition:blog-and-events:about:more-books:interview-killer"/>
+    <file name="museutils.js" crc="340535759" ref="index:books:music:gadgets:home-products:fitness-and-nutrition:blog-and-events:about:more-books:interview-killer"/>
+    <file name="whatinput.js" crc="86476730" ref="index:books:music:gadgets:home-products:fitness-and-nutrition:blog-and-events:about:more-books:interview-killer"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:books:music:gadgets:home-products:fitness-and-nutrition:blog-and-events:about:more-books:interview-killer"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:books:music:gadgets:home-products:fitness-and-nutrition:blog-and-events:about:more-books:interview-killer"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:books:music:gadgets:home-products:fitness-and-nutrition:blog-and-events:about:more-books:interview-killer"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index:books:gadgets:home-products:more-books"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:books:music:gadgets:home-products:fitness-and-nutrition:blog-and-events:about:more-books:interview-killer"/>
+    <file name="require.js" crc="7928878" ref="index:books:music:gadgets:home-products:fitness-and-nutrition:blog-and-events:about:more-books:interview-killer"/>
+  </folder>
+  <folder name="images">
+    <file name="north.png" crc="4056795061" ref="index:books">
+      <caption webpage="index" alt=""/>
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="abstract-background-17.jpg" crc="535400933" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="north-star-logo_star_color.jpg" crc="49944053" ref="index:books">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="baef22-86d9cd-dji-mavic-drone-.jpg" crc="527369928" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="61bgfsmttnl_sl1000_.jpg" crc="101867395" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="71gawj9yzal_sl1499_.jpg" crc="3796121113" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="booked.jpg" crc="468196988" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="music.jpg" crc="4293396798" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="gadgetsee.jpg" crc="507022703" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="muted-colours-minimalist-lounge.jpg" crc="69407270" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ngi-sports-nutrition-finalsmall.jpg" crc="3930980797" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="bi-blogschmuckbild-en.jpg" crc="39220178" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tech-logos.png" crc="24995554" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="wallpapers___white_abstract_polygons__black_bg__by_kaminohunter-dati6te.jpg" crc="130162009" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="triangular-geometry-black-with-red-light-vector-02.jpg" crc="3759343052" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="influence.jpg" crc="278999944" ref="books">
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="the-art-of-closing-the-sale.jpg" crc="4245216167" ref="books">
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="dale.jpg" crc="390526537" ref="books">
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="mind.jpg" crc="3902425138" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="water.jpg" crc="3877996376" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="lawsofpower.jpg" crc="3903421179" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="men.jpg" crc="489845604" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="dieda.jpg" crc="4005788677" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="mastery.jpg" crc="4230765694" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="beast.jpg" crc="3896805495" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="viktor.jpg" crc="4289002441" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="assert.jpg" crc="4097654152" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="notnice.jpg" crc="155880435" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="seduce.jpg" crc="337831988" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="leader.jpg" crc="3993250446" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="models-u2060-fr.jpg" crc="89590047" ref="books"/>
+    <file name="story.jpg" crc="4012562951" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="ricker.jpg" crc="354075025" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="effective.jpg" crc="4087879802" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="tracyunlock.jpg" crc="3922455512" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="habit.jpg" crc="3967845303" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="better.jpg" crc="4169785603" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="8020.jpg" crc="526278002" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="richest.jpg" crc="39901279" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="start.jpg" crc="4017024673" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="flow-u2389-fr.jpg" crc="3803755369" ref="books"/>
+    <file name="scretes.jpg" crc="484464534" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="week.jpg" crc="4157627480" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="money.jpg" crc="4102078696" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="unshake.jpg" crc="4036972669" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="tony.jpg" crc="4100278048" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="must.jpg" crc="294338507" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="pass.jpg" crc="4239473871" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="chase.jpg" crc="60957239" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="paycheck.jpg" crc="455938006" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="frugal.jpg" crc="220966709" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="multiple.jpg" crc="4288603614" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="escape.jpg" crc="4122105815" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="retire.jpg" crc="297675559" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="invest.jpg" crc="496219707" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="live.jpg" crc="3846742809" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="now.jpg" crc="3891353805" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="zin.jpg" crc="371219883" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="medi.jpg" crc="3981127998" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="bible.jpg" crc="3765179090" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="breath.jpg" crc="3877623728" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="thinking-u2783-fr.jpg" crc="266345660" ref="books"/>
+    <file name="blink.jpg" crc="432170313" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="irrational.jpg" crc="413673787" ref="books">
+      <caption webpage="books" alt=""/>
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="principles.jpg" crc="390591656" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="str.jpg" crc="3825299603" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="growth.jpg" crc="3955327271" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="stdup.jpg" crc="4082228850" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="good.jpg" crc="279021617" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="zero.jpg" crc="3977581863" ref="books">
+      <caption webpage="books" alt=""/>
+    </file>
+    <file name="gotrax2.jpg" crc="16365174" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="razor.jpg" crc="50753902" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="swagtron.jpg" crc="353213965" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="dji air.jpg" crc="3934277609" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="dji_mavic_2pro-2.jpg" crc="4042608707" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="phantom.jpg" crc="3796873621" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="logitec.jpg" crc="4009812364" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="jbl extreme.jpg" crc="3903202799" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="sony.jpg" crc="3855497147" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="x10.jpg" crc="95853123" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="motorola.jpg" crc="175235516" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="orbi.jpg" crc="164752311" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="tonor.jpg" crc="4092831891" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="scarlett.jpg" crc="130223248" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="yetiblue.jpg" crc="315622591" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="cannon.jpg" crc="3824681110" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="80d.jpg" crc="340742719" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="t7i.jpg" crc="3996368522" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="backup.jpg" crc="4289390480" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="adapter.jpg" crc="3844695809" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="sandisk.jpg" crc="377672855" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="3d.jpg" crc="3793219467" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="lulzbot.jpg" crc="430861633" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="sindoh.jpg" crc="4267604828" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="brother2.jpg" crc="4128906623" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="singer.jpg" crc="3818177623" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="janome.jpg" crc="6682920" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="bose.jpg" crc="4220824804" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="sony2.jpg" crc="4266955908" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="skullr.jpg" crc="410123240" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="poweroak.jpg" crc="438034234" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="anker.jpg" crc="4282483391" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="smallest.jpg" crc="3892623950" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="hp.jpg" crc="4251655995" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="epson.jpg" crc="253528939" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="brother.jpg" crc="38008981" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="lg34.jpg" crc="4122316258" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="asus34curve.jpg" crc="4053723318" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="samsungmax.jpg" crc="4120980399" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="asus.jpg" crc="3933170069" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="tripheader.jpg" crc="4248187188" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="mac.jpg" crc="341444386" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="bicycle.jpg" crc="4129950929" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="swagtron2.jpg" crc="3819297231" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="2 stroke.jpg" crc="4070350372" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="carejoy.jpg" crc="3962488364" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="f2c.jpg" crc="4025717441" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="swiss2.jpg" crc="3895650929" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="multi.jpg" crc="286320782" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="dope.jpg" crc="463278160" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="present.jpg" crc="4035957838" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="usv.jpg" crc="4034765740" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="sandisk2.jpg" crc="52159074" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="cmemory.jpg" crc="3923719146" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="multii.jpg" crc="313291445" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="bpac.jpg" crc="154068977" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="keyboard.jpg" crc="3955716798" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="daily.jpg" crc="306335867" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="iphone6splus_spacegray.png" crc="373955913" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="guessd.jpg" crc="415580138" ref="gadgets">
+      <caption webpage="gadgets" alt=""/>
+    </file>
+    <file name="robot.jpg" crc="3956849112" ref="home-products">
+      <caption webpage="home-products" alt=""/>
+    </file>
+    <file name="chair.jpg" crc="370721104" ref="home-products">
+      <caption webpage="home-products" alt=""/>
+    </file>
+    <file name="lasko.jpg" crc="3995498452" ref="home-products">
+      <caption webpage="home-products" alt=""/>
+    </file>
+    <file name="cooker.jpg" crc="355935275" ref="home-products">
+      <caption webpage="home-products" alt=""/>
+    </file>
+    <file name="dishes.jpg" crc="68152797" ref="home-products">
+      <caption webpage="home-products" alt=""/>
+    </file>
+    <file name="washer.jpg" crc="3837496999" ref="home-products">
+      <caption webpage="home-products" alt=""/>
+    </file>
+    <file name="desk1.jpg" crc="3963406377" ref="home-products">
+      <caption webpage="home-products" alt=""/>
+    </file>
+    <file name="proofs.jpg" crc="4231519079" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="algrebra.jpg" crc="247444695" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="discrete.jpg" crc="4207412073" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="trig.jpg" crc="3894245423" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="analysis.jpg" crc="4214273007" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="calculus.jpg" crc="4131343848" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="zill.jpg" crc="3994413738" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="control.jpg" crc="4091542617" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="numerics.jpg" crc="3919581471" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="why.jpg" crc="268122253" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="logic.jpg" crc="4266660807" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="cpp.jpg" crc="3765817509" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="cprog.jpg" crc="4195221871" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="options.jpg" crc="300241502" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="neurals.jpg" crc="155096570" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="java.jpg" crc="4162229003" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="intro.jpg" crc="239331946" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="bart.jpg" crc="59666675" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="curse.jpg" crc="3889193587" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="ai.jpg" crc="524616381" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="competitive-u4646-fr.jpg" crc="4180161137" ref="more-books"/>
+    <file name="yap.jpg" crc="226585542" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="deep.jpg" crc="3797576177" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="javac.jpg" crc="161628731" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="life3.jpg" crc="177468273" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="music2.jpg" crc="302323950" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="apps.jpg" crc="4085739394" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="forex.jpg" crc="173440199" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="kathy.jpg" crc="3960025338" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="marked.jpg" crc="3874068990" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="naked.jpg" crc="4022587165" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="technical.jpg" crc="287159009" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="sam.jpg" crc="511131726" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="for.jpg" crc="4250536350" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="fx.jpg" crc="3298922" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+    <file name="grham.jpg" crc="68320030" ref="more-books">
+      <caption webpage="more-books" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="95805730" seo="true" mt="1543327325535" redirect="true"/>
+  <file name="books.html" crc="3959306961" seo="true" mt="1543327327201" redirect="true"/>
+  <file name="music.html" crc="3885134274" seo="true" mt="1543320027324" redirect="true"/>
+  <file name="gadgets.html" crc="49064326" seo="true" mt="1543327331590" redirect="true"/>
+  <file name="home-products.html" crc="3917454110" seo="true" mt="1543327332023" redirect="true"/>
+  <file name="fitness-and-nutrition.html" crc="3984104679" seo="true" mt="1543168143184" redirect="true"/>
+  <file name="blog-and-events.html" crc="3810464978" seo="true" mt="1543168143184" redirect="true"/>
+  <file name="about.html" crc="485309554" seo="true" mt="1543168143184" redirect="true"/>
+  <file name="more-books.html" crc="177869945" seo="true" mt="1543327328642" redirect="true"/>
+  <file name="interview-killer.html" crc="389357567" seo="true" mt="1543320027324" redirect="true"/>
+</manifest>
