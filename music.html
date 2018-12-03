@@ -11,14 +11,15 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.musemenu.js", "require.js", "music.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "music.css"], "outOfDate":[]};
 </script>
   
+  <link rel="shortcut icon" href="images/favicon.ico?crc=4291645881"/>
   <title>Music</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=4230130801"/>
-  <link rel="stylesheet" type="text/css" href="css/music.css?crc=374760154" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=4129149283"/>
+  <link rel="stylesheet" type="text/css" href="css/music.css?crc=407564128" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
@@ -27,31 +28,32 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu408"><!-- column -->
-    <div class="browser_width colelem" id="u408-bw">
-     <div id="u408"><!-- group -->
-      <div class="clearfix" id="u408_align_to_page">
-       <div class="grpelem" id="u1365"><!-- simple frame --></div>
-       <nav class="MenuBar clearfix grpelem" id="menuu1329" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- horizontal box -->
-        <div class="MenuItemContainer clearfix grpelem" id="u1351"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1352" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1354-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Home</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u1344"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1345" href="books.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1348-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Books</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u1330"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u1333" href="music.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1334-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Music</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u1358"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1361" href="gadgets.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1362-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Gadgets</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u1337"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u1338" href="home-products.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u1341-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Home Products</p></div></a>
-        </div>
-       </nav>
-      </div>
-     </div>
+   <div class="clearfix grpelem" id="pu12797"><!-- group -->
+    <div class="browser_width" id="u12797-bw">
+     <div class="shadow" id="u12797"><!-- simple frame --></div>
     </div>
+    <nav class="MenuBar clearfix" id="menuu12798"><!-- horizontal box -->
+     <div class="MenuItemContainer clearfix grpelem" id="u12813"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background rounded-corners clearfix colelem" id="u12816" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u12818-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Home</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u12820"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background rounded-corners clearfix colelem" id="u12821" href="read-books.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u12822-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Read Books</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u12827"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u12828" href="music.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u12831-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Music</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u12799"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background rounded-corners clearfix colelem" id="u12800" href="gadgets.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u12802-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Gadgets</p></div></a>
+     </div>
+     <div class="MenuItemContainer clearfix grpelem" id="u12806"><!-- vertical box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background rounded-corners clearfix colelem" id="u12807" href="home-products.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u12809-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>Home Products</p></div></a>
+     </div>
+    </nav>
+    <div id="u12834-wrapper">
+     <div class="museBGSize rounded-corners" id="u12834"><!-- simple frame --></div>
+    </div>
+   </div>
+   <div class="clearfix grpelem" id="pu410"><!-- column -->
     <div class="browser_width colelem" id="u410-bw">
      <div id="u410"><!-- group -->
       <div class="clearfix" id="u410_align_to_page">
@@ -69,10 +71,316 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       </div>
      </div>
     </div>
-    <div class="colelem" id="u433"><!-- simple frame --></div>
-    <div class="colelem" id="u409"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="pu433"><!-- group -->
+     <div class="clearfix grpelem" id="u433"><!-- group -->
+      <div class="clearfix grpelem" id="u9618-3"><!-- content -->
+       <p>&nbsp;</p>
+      </div>
+     </div>
+     <div class="gradient rounded-corners clearfix grpelem" id="u9616"><!-- group -->
+      <div class="clearfix grpelem" id="u9617-4"><!-- content -->
+       <p>Music</p>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u409"><!-- column -->
+     <div class="position_content" id="u409_position_content">
+      <div class="clearfix colelem" id="u9619"><!-- group -->
+       <div class="clearfix grpelem" id="u9620-4"><!-- content -->
+        <p>Our Top 10 Albums of All Time</p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u9856"><!-- column -->
+       <div class="gradient clearfix colelem" id="u9862"><!-- group -->
+        <a class="nonblock nontext clearfix grpelem" id="u9857-7" href="https://amzn.to/2Qp0Ybj"><!-- content --><p><span id="u9857">Ready To Die</span> by <span id="u9857-3">The Notorious BIG </span><span id="u9857-4">(1994)</span></p></a>
+       </div>
+       <div class="clearfix colelem" id="pu9858"><!-- group -->
+        <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9858" href="https://amzn.to/2Qp0Ybj"><!-- simple frame --></a>
+        <div class="clearfix grpelem" id="u9863-4"><!-- content -->
+         <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="u9859"><!-- group -->
+        <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9860"><!-- group -->
+         <a class="block" href="https://amzn.to/2Qp0Ybj"><!-- Block link tag --></a>
+         <a class="nonblock nontext clearfix grpelem" id="u9861-4" href="https://amzn.to/2Qp0Ybj"><!-- content --><p>Available on Amazon</p></a>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u9720"><!-- column -->
+       <div class="gradient clearfix colelem" id="u9726"><!-- group -->
+        <a class="nonblock nontext clearfix grpelem" id="u9721-7" href="https://amzn.to/2SfveCN"><!-- content --><p><span id="u9721">Forever</span> by <span id="u9721-3">Puff Daddy </span><span id="u9721-4">(1999)</span></p></a>
+       </div>
+       <div class="clearfix colelem" id="pu9722"><!-- group -->
+        <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9722" href="https://amzn.to/2SfveCN"><!-- simple frame --></a>
+        <div class="clearfix grpelem" id="u9727-4"><!-- content -->
+         <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="u9723"><!-- group -->
+        <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9724"><!-- group -->
+         <a class="block" href="https://amzn.to/2SfveCN"><!-- Block link tag --></a>
+         <a class="nonblock nontext clearfix grpelem" id="u9725-4" href="https://amzn.to/2SfveCN"><!-- content --><p>Available on Amazon</p></a>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u9709"><!-- column -->
+       <div class="gradient clearfix colelem" id="u9688"><!-- group -->
+        <a class="nonblock nontext clearfix grpelem" id="u9689-7" href="https://amzn.to/2DZwGpS"><!-- content --><p><span id="u9689">I Am ...</span> by <span id="u9689-3">Nas </span><span id="u9689-4">(1999)</span></p></a>
+       </div>
+       <div class="clearfix colelem" id="pu9690"><!-- group -->
+        <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9690" href="https://amzn.to/2DZwGpS"><!-- simple frame --></a>
+        <div class="clearfix grpelem" id="u9691-4"><!-- content -->
+         <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="u9692"><!-- group -->
+        <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9694"><!-- group -->
+         <a class="block" href="https://amzn.to/2DZwGpS"><!-- Block link tag --></a>
+         <a class="nonblock nontext clearfix grpelem" id="u9693-4" href="https://amzn.to/2DZwGpS"><!-- content --><p>Available on Amazon</p></a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u9824"><!-- column -->
+     <div class="gradient clearfix colelem" id="u9825"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u9827-7" href="https://amzn.to/2Q1Zwwp"><!-- content --><p><span id="u9827">Vinni Vitti Vicci</span> by <span id="u9827-3">Ja Rule </span><span id="u9827-4">(1999)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu9826"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9826" href="https://amzn.to/2Q1Zwwp"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u9828-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u9829"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9830"><!-- group -->
+       <a class="block" href="https://amzn.to/2Q1Zwwp"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u9831-4" href="https://amzn.to/2Q1Zwwp"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u9800"><!-- column -->
+     <div class="gradient clearfix colelem" id="u9806"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u9801-7" href="https://amzn.to/2zsl8rn"><!-- content --><p><span id="u9801">The Blueprint</span> by <span id="u9801-3">Jay-Z </span><span id="u9801-4">(2001)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu9802"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9802" href="https://amzn.to/2zsl8rn"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u9807-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u9803"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9804"><!-- group -->
+       <a class="block" href="https://amzn.to/2zsl8rn"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u9805-4" href="https://amzn.to/2zsl8rn"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u9880"><!-- column -->
+     <div class="gradient clearfix colelem" id="u9881"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u9883-7" href="https://amzn.to/2TQm2GI"><!-- content --><p><span id="u9883">Revolution vol. 1</span> by <span id="u9883-3">Immortal Technique </span><span id="u9883-4">(2001)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu9882"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9882" href="https://amzn.to/2TQm2GI"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u9884-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u9885"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9886"><!-- group -->
+       <a class="block" href="https://amzn.to/2TQm2GI"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u9887-4" href="https://amzn.to/2TQm2GI"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u10185"><!-- column -->
+     <div class="gradient clearfix colelem" id="u10190"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u10189-7" href="https://amzn.to/2ra0jfO"><!-- content --><p><span id="u10189">Greatest Hits </span>by <span id="u10189-3">Brenda Fassie </span><span id="u10189-4">(R.I.P. 1964 - 2004)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu10192"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10192" href="https://amzn.to/2ra0jfO"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u10191-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u10186"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u10188"><!-- group -->
+       <a class="block" href="https://amzn.to/2ra0jfO"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u10187-4" href="https://amzn.to/2ra0jfO"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u9904"><!-- column -->
+     <div class="gradient clearfix colelem" id="u9908"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u9910-7" href="https://amzn.to/2r8Kx4U"><!-- content --><p><span id="u9910">Distant Relatives </span>by <span id="u9910-3">Nas &amp; Damian Marley </span><span id="u9910-4">(2010)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu9909"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9909" href="https://amzn.to/2r8Kx4U"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u9911-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u9905"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9906"><!-- group -->
+       <a class="block" href="https://amzn.to/2r8Kx4U"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u9907-4" href="https://amzn.to/2r8Kx4U"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u9928"><!-- column -->
+     <div class="gradient clearfix colelem" id="u9929"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u9930-7" href="https://amzn.to/2Qsz7qY"><!-- content --><p><span id="u9930">My Beautiful Dark Twisted Fantasy </span>by <span id="u9930-3">Kanye West </span><span id="u9930-4">(2010)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu9934"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9934" href="https://amzn.to/2Qsz7qY"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u9935-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u9931"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9932"><!-- group -->
+       <a class="block" href="https://amzn.to/2Qsz7qY"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u9933-4" href="https://amzn.to/2Qsz7qY"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u9979"><!-- column -->
+     <div class="gradient clearfix colelem" id="u9984"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u9983-7" href="https://amzn.to/2BCk99p"><!-- content --><p><span id="u9983">Take Care </span>by <span id="u9983-3">Drake </span><span id="u9983-4">(2011)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu9986"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u9986" href="https://amzn.to/2BCk99p"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u9985-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u9980"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u9982"><!-- group -->
+       <a class="block" href="https://amzn.to/2BCk99p"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u9981-4" href="https://amzn.to/2BCk99p"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u10003"><!-- column -->
+     <div class="gradient clearfix colelem" id="u10010"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u10009-7" href="https://amzn.to/2ShhS8X"><!-- content --><p><span id="u10009">To Pimp The Butterfly </span>by <span id="u10009-3">Kendrick Lamar </span><span id="u10009-4">(2015)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu10004"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10004" href="https://amzn.to/2ShhS8X"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u10008-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u10005"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u10007"><!-- group -->
+       <a class="block" href="https://amzn.to/2ShhS8X"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u10006-4" href="https://amzn.to/2ShhS8X"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u10027"><!-- group -->
+     <div class="clearfix grpelem" id="u10028-4"><!-- content -->
+      <p>Our Top 5 Albums (2017/8)</p>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u10029"><!-- column -->
+     <div class="gradient clearfix colelem" id="u10031"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u10032-7" href="https://amzn.to/2zuHhoW"><!-- content --><p><span id="u10032">Two-9</span> by <span id="u10032-3">FRVR </span><span id="u10032-4">(2017)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu10033"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10033" href="https://amzn.to/2zuHhoW"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u10030-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u10034"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u10036"><!-- group -->
+       <a class="block" href="https://amzn.to/2zuHhoW"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u10035-4" href="https://amzn.to/2zuHhoW"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u10053"><!-- column -->
+     <div class="gradient clearfix colelem" id="u10058"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u10060-7" href="https://amzn.to/2KAqdly"><!-- content --><p><span id="u10060">Issa Album</span> by <span id="u10060-3">21 Savage </span><span id="u10060-4">(2017)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu10059"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10059" href="https://amzn.to/2KAqdly"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u10054-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u10055"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u10056"><!-- group -->
+       <a class="block" href="https://amzn.to/2KAqdly"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u10057-4" href="https://amzn.to/2KAqdly"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="u10045"><!-- column -->
+     <div class="gradient clearfix colelem" id="u10049"><!-- group -->
+      <a class="nonblock nontext clearfix grpelem" id="u10051-7" href="https://amzn.to/2P5bBLy"><!-- content --><p><span id="u10051">Queen</span> by <span id="u10051-3">Nicki Minaj </span><span id="u10051-4">(2018)</span></p></a>
+     </div>
+     <div class="clearfix colelem" id="pu10050"><!-- group -->
+      <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10050" href="https://amzn.to/2P5bBLy"><!-- simple frame --></a>
+      <div class="clearfix grpelem" id="u10052-4"><!-- content -->
+       <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="u10046"><!-- group -->
+      <div class="pointer_cursor rounded-corners clearfix grpelem" id="u10048"><!-- group -->
+       <a class="block" href="https://amzn.to/2P5bBLy"><!-- Block link tag --></a>
+       <a class="nonblock nontext clearfix grpelem" id="u10047-4" href="https://amzn.to/2P5bBLy"><!-- content --><p>Available on Amazon</p></a>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu10260"><!-- group -->
+     <div class="grpelem" id="u10260"><!-- simple frame --></div>
+     <div class="clearfix grpelem" id="pu10061"><!-- column -->
+      <div class="clearfix colelem" id="u10061"><!-- column -->
+       <div class="gradient clearfix colelem" id="u10062"><!-- group -->
+        <a class="nonblock nontext clearfix grpelem" id="u10063-7" href="https://amzn.to/2zt8Hva"><!-- content --><p><span id="u10063">Beer Bongs and Bentleys</span> by <span id="u10063-3">Post Malone </span><span id="u10063-4">(2018)</span></p></a>
+       </div>
+       <div class="clearfix colelem" id="pu10065"><!-- group -->
+        <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10065" href="https://amzn.to/2zt8Hva"><!-- simple frame --></a>
+        <div class="clearfix grpelem" id="u10064-4"><!-- content -->
+         <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="u10066"><!-- group -->
+        <div class="pointer_cursor rounded-corners clearfix grpelem" id="u10067"><!-- group -->
+         <a class="block" href="https://amzn.to/2zt8Hva"><!-- Block link tag --></a>
+         <a class="nonblock nontext clearfix grpelem" id="u10068-4" href="https://amzn.to/2zt8Hva"><!-- content --><p>Available on Amazon</p></a>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="u10037"><!-- column -->
+       <div class="gradient clearfix colelem" id="u10044"><!-- group -->
+        <a class="nonblock nontext clearfix grpelem" id="u10041-7" href="https://amzn.to/2KBSZCn"><!-- content --><p><span id="u10041">Scorpion</span> by <span id="u10041-3">Drake </span><span id="u10041-4">(2018)</span></p></a>
+       </div>
+       <div class="clearfix colelem" id="pu10042"><!-- group -->
+        <a class="nonblock nontext museBGSize rounded-corners grpelem" id="u10042" href="https://amzn.to/2KBSZCn"><!-- simple frame --></a>
+        <div class="clearfix grpelem" id="u10043-4"><!-- content -->
+         <p>Personally I think DJI makes the best drones in the market, whether for film production, video making for enthusiast. You want to capture those special shorts</p>
+        </div>
+       </div>
+       <div class="clearfix colelem" id="u10038"><!-- group -->
+        <div class="pointer_cursor rounded-corners clearfix grpelem" id="u10039"><!-- group -->
+         <a class="block" href="https://amzn.to/2KBSZCn"><!-- Block link tag --></a>
+         <a class="nonblock nontext clearfix grpelem" id="u10040-4" href="https://amzn.to/2KBSZCn"><!-- content --><p>Available on Amazon</p></a>
+        </div>
+       </div>
+      </div>
+      <div class="rounded-corners clearfix colelem" id="u10263"><!-- group -->
+       <div class="clearfix grpelem" id="u10266-4"><!-- content -->
+        <p>Thank You!</p>
+       </div>
+      </div>
+     </div>
+    </div>
    </div>
-   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="1789" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="verticalspacer" data-offset-top="6629" data-content-above-spacer="6629" data-content-below-spacer="62" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    <div class="clearfix grpelem" id="pu407"><!-- column -->
     <div class="browser_width colelem" id="u407-bw">
      <div id="u407"><!-- simple frame --></div>
@@ -99,7 +407,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musemenu","jquery.musepolyfill.bgsize","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
